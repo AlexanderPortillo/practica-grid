@@ -1,0 +1,111 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: grid;
+	height: 100vh;
+	background-color: #ecf2ff;
+	grid-template-columns: 2fr 4fr;
+	grid-gap: 10px;
+}
+
+.col {
+	margin: 10px;
+}
+
+.col__1 {
+	background-color: white;
+	box-shadow: 0 0 10px black;
+}
+
+.col__imagen {
+	width: 100%;
+	height: 30vh;
+}
+
+.col__title {
+	margin: -2.5rem 0 1rem 0.5rem;
+	color: white;
+}
+
+.col__info {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin: 0 10px;
+	font-size: 1rem;
+}
+
+.col__info i {
+	margin: 0 5px 0 0;
+	color: #539165;
+	font-size: 1.4rem;
+}
+
+.col__hr {
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+.col__html-css-range {
+	padding: 10px;
+}
+
+.col__2 {
+	display: grid;
+	grid-template-rows: 2fr 5fr;
+	grid-gap: 10px;
+}
+
+.col__2 i {
+	color: #539165;
+}
+
+.row {
+	background-color: white;
+	box-shadow: 0 0 10px black;
+	border-radius: 10px;
+}
+
+.row-margin {
+	margin: 20px;
+}
+
+.row__key-summary {
+	font-size: 1.5rem;
+}
+
+.row__text {
+	font-size: 2rem;
+	color: rebeccapurple;
+}
+
+.row__info {
+	text-align: justify;
+	font-size: 1rem;
+}
+
+.row__work-icon {
+	font-size: 1.5rem;
+}
+
+.row__certification-html-css,
+.row__certification-js,
+.row__certification-git {
+	color: gray;
+}
+
+.row__calendar-git::after {
+	content: 'Actualmente';
+	background-color: #3e54ac;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+.col__2 hr {
+	border: none;
+	border-bottom: 2px solid black;
+}
