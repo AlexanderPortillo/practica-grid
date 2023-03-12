@@ -5,7 +5,7 @@
 
 .container {
 	display: grid;
-	height: 100vh;
+	height: auto;
 	background-color: #ecf2ff;
 	grid-template-columns: 2fr 4fr;
 	grid-gap: 10px;
